@@ -114,7 +114,7 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  HAL_UART_Transmit(&huart2, (uint8_t *)data1, sizeof(data), 100);
+	  HAL_UART_Transmit(&huart2, (uint8_t *)data, sizeof(data), 100);
 	  HAL_Delay(300);
     /* USER CODE END WHILE */
     MX_USB_HOST_Process();
