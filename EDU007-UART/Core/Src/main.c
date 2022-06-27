@@ -49,7 +49,10 @@ SPI_HandleTypeDef hspi1;
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
-
+char data[5] = "uart\n";
+int data2 = 115200;
+float data3= 125.25;
+char message[200];
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
