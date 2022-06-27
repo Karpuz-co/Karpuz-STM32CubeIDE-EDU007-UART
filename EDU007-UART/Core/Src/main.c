@@ -120,7 +120,7 @@ int main(void)
 	  sprintf(message, "%d\n", data2 );
 	  HAL_UART_Transmit(&huart2, (uint8_t *)message, strlen(message), 100);
 	  HAL_Delay(300);
-	  sprintf(message, "%d\n", data3 );
+	  sprintf(message, "%f\n", data3 );
 	  HAL_UART_Transmit(&huart2, (uint8_t *)message, strlen(message), 100);
 	  HAL_Delay(300);
     /* USER CODE END WHILE */
