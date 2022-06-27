@@ -116,6 +116,9 @@ int main(void)
   {
 	  HAL_UART_Transmit(&huart2, (uint8_t *)data, sizeof(data), 100);
 	  HAL_Delay(300);
+	  sprintf(message, "%d\n", data2 );
+	  HAL_UART_Transmit(&huart2, (uint8_t *)data, sizeof(data), 100);
+	  HAL_Delay(300);
     /* USER CODE END WHILE */
     MX_USB_HOST_Process();
 
