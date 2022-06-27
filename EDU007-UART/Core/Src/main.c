@@ -50,7 +50,7 @@ SPI_HandleTypeDef hspi1;
 UART_HandleTypeDef huart2;
 
 /* USER CODE BEGIN PV */
-char data[5] = "uart\n";
+char data[30] = "This is elon musk\n";
 int data2 = 115200;
 float data3= 125.25;
 char message[200];
